@@ -40,3 +40,5 @@ or actively monitor threats and may prevent them. Detection = Alert Prevention =
 
 <p>These devices distribute load across multiple devices to keep critical systems online.<br>
 They are invisible to end-users and provide Fault Tolerance(Server outages have no effect, quick convergence)</p>
+
+![load-balancer](https://github.com/ch1c4g0/network-plus/blob/2a002f1db5fd842e25d8c5296e6d6394921fd05a/screenshots/Screenshot%202026-03-18%20133914.png)

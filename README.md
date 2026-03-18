@@ -1,7 +1,7 @@
 # network-plus
 Notes and study information for my N10-009 Network+ Exam Certification.
 
-<p>All these notes are based off of Professor Messer's youtube playlist.</p>
+<p>All these notes are based off of Professor Messer's Youtube playlist.</p>
 
 ```
 Please go support him,

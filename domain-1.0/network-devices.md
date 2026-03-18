@@ -45,3 +45,11 @@ They are invisible to end-users and provide Fault Tolerance(Server outages have 
 
 <p>Can provide a configurable load managed across all servers, TCP Offload, SSL Offload<br>
 Decryption/Encryption, Caching, Prioritization, and Content Switching.</p>
+
+<p><h1>Proxies</h1></p>
+
+<p>Sits between the users and external network, it receives a users request<br>
+and performs the request on their behalf.</p>
+
+<p>This is extremely useful for caching information such as access control, URL filtering,<br>
+and content scanning.</p>

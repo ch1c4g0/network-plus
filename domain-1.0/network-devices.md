@@ -53,3 +53,28 @@ and performs the request on their behalf.</p>
 
 <p>This is extremely useful for caching information such as access control, URL filtering,<br>
 and content scanning.</p>
+
+<p>Some applications may need to know how to use the proxy, but transparent proxies are invisible.</p>
+
+<p><h1>Network Attached Storage (NAS)</h1></p>
+
+<p>Provides file-leve access, this means in order to manipulate data within a file we need to<br>
+pull the entire file to our systems memory. When writing or changing information, we need to write the entire<br>
+file back to the NAS.</p>
+
+<p><h1>Storage Area Network(SAN)</h1></p>
+
+<p>This feels like local file storage, SAN's provide block-level access, this means<br>
+you can modify certain blocks of data, therefor only that data needs to be uploaded to the SAN.</p>
+
+<p>These devices require a lot of bandwidth, this may cause them to be placed on an isolated network with<br>
+special network capabilities.</p>
+
+<p><h1>Access Points (AP)</h1></p>
+
+<p>Provides wireless access to devices, very common in enterprise environments.<br>
+AP's are OSI Layer 2 Devices, as it makes the translation from 802.11 wireless network to 802.3 wired network.</p>
+
+<p><h1>Wireless LAN Controllers</h1></p>
+
+<p>Allow for centralized management of Access Points.</p>

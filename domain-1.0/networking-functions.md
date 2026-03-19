@@ -38,3 +38,27 @@ Default Mac/Linux TTL is 64 hops, Default Window TTL is 128 Hops. An average amo
 <p>DNS lookups</p>
 
 <p>TTL's within DNS Queries tells us how long to store / cache the IP for. (300 seconds = 5 minutes)</p>
+
+```
+; <<>> DiG 9.10.6 <<>> www.professormesser.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13164
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.professormesser.com.	IN	A
+
+;; ANSWER SECTION:
+www.professormesser.com. -> HERE(300)	IN	A	104.20.22.204
+www.professormesser.com. -> HERE(300)	IN	A	172.66.174.118
+
+;; Query time: 65 msec
+;; SERVER: 2001:558:feed::1#53(2001:558:feed::1)
+;; WHEN: Wed Mar 18 20:58:58 CDT 2026
+;; MSG SIZE  rcvd: 84
+```
+
+

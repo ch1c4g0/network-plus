@@ -9,11 +9,11 @@ TCP/20 is active mode data, tcp/21 control.
 
 <p><h3>TCP/21</h3></p>
 
-<p>Responsible for authenticating users, sending commands, and establishing the connection.</p>
+**<p>Responsible for authenticating users, sending commands, and establishing the connection.</p>**
 
 <p><h3>TCP/20</h3></p>
 
-<p>Responsible for transferring file data (uploading/downloading)</p>
+**<p>Responsible for transferring file data (uploading/downloading)</p>**
 
 <p>Both of thes ports are essential for modern active FTP.</p>
 

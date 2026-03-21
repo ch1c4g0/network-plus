@@ -22,7 +22,7 @@
 
 <p>Sometimes called HaaS (Hardware as a Service) means that the phyiscal hardware is not hosted on-site.</p>
 
-<p><h1>Platform as a Service</h1></p>
+<p><h1>Platform as a Service (PaaS)</h1></p>
 
 <p>No servers, no software, no maintenance team, someone handles the platform, you handle the dev.</p>
 

@@ -89,3 +89,4 @@ TCP/20 is active mode data, tcp/21 control.
 
 LDAPs is a secure version of LDAP(a non-standard implementation of LDAP over SSL, it uses TCP/636.</p>
 
+![ldap-tree-structure](https://github.com/ch1c4g0/network-plus/blob/33bab22078bf17b094126623bcc663492afece5c/screenshots/Screenshot%202026-03-21%20at%2016-31-54%20Authentication%20with%20LDAP%20%E2%80%94%20GeoServer%202.19.x%20User%20Manual.png)

@@ -90,3 +90,24 @@ TCP/20 is active mode data, tcp/21 control.
 LDAPs is a secure version of LDAP(a non-standard implementation of LDAP over SSL, it uses TCP/636.</p>
 
 ![ldap-tree-structure](https://github.com/ch1c4g0/network-plus/blob/33bab22078bf17b094126623bcc663492afece5c/screenshots/Screenshot%202026-03-21%20at%2016-31-54%20Authentication%20with%20LDAP%20%E2%80%94%20GeoServer%202.19.x%20User%20Manual.png)
+
+<p><h1>SMB / Server Message Block</h1></p>
+
+<p>Protocol used by microsoft, allows for file-sharing, printer-sharing, and authentication. Commonly called CIFS / Common Internet File System.</p>
+
+<p>THis protocol is integrated into the operating system, previously windows used NetBIOS to accomplish this. TCP/445 is associated with SMB.</p>
+
+<p><h1>Syslogs</h1></p>
+
+<p>Standard for message logging, diverse systems and consolidated logs. UDP/514 allows us to transfer log files typically to a large drive array or an aggregated data location for a SIEM.</p>
+
+<p>Databases</p>
+
+<p>Collection of information with vast amounts and types of data.</p>
+
+<p><h3>SQL / Structured Query Language</h3></p>
+
+<p>This is a standard language to stored and retrieve data to or from a database</p>
+
+<p>Note, there are many different varients of SQL. Microsoft has their own varient called MS-SQL / Microsoft Structured Query Language. It operates on TCP/1433</p>
+

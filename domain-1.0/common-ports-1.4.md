@@ -83,4 +83,9 @@ TCP/20 is active mode data, tcp/21 control.
 
 <p>Sends alerts and notifications to the management center using port UDP/162</p>
 
+<p><h1>LDAP-LDAPS / Lightweight Directory Access Protocol</h1></p>
+
+<p>Operates on tcp/389 it is used to stored and retrieve information in a network directory.<br>
+
+LDAPs is a secure version of LDAP(a non-standard implementation of LDAP over SSL, it uses TCP/636.</p>
 

@@ -101,7 +101,7 @@ LDAPs is a secure version of LDAP(a non-standard implementation of LDAP over SSL
 
 <p>Standard for message logging, diverse systems and consolidated logs. UDP/514 allows us to transfer log files typically to a large drive array or an aggregated data location for a SIEM.</p>
 
-<p>Databases</p>
+<p><h3>Databases</h3></p>
 
 <p>Collection of information with vast amounts and types of data.</p>
 
@@ -110,4 +110,16 @@ LDAPs is a secure version of LDAP(a non-standard implementation of LDAP over SSL
 <p>This is a standard language to stored and retrieve data to or from a database</p>
 
 <p>Note, there are many different varients of SQL. Microsoft has their own varient called MS-SQL / Microsoft Structured Query Language. It operates on TCP/1433</p>
+
+<p><h1>RDP / Remote Desktop Protocol</h1></p>
+
+<p>Shares a desktop from a remote location over TCP/3389 there are many operating systems / versions that support RDP.</p>
+
+<p>Note RDP is considered out-of-date/insecure.</p>
+
+<p><h1>SIP / Session Initiation Protocol</h1></p>
+
+<p>For VOIP signaling TCP/5060 and TCP/5061, it manages and sets up VoIP sessions (call, ring, play busy signal, hang up, ect.)</p>
+
+<p>It may also be used for extended voice communication such as video conferencing, instant messaging, file transfer, and more.</p>
 

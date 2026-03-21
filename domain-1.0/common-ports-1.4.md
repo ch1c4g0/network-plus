@@ -38,5 +38,49 @@ TCP/20 is active mode data, tcp/21 control.
 
 <p><h1>DNS / Domain Name System</h1></p>
 
+<p>Communication on UDP/53, it converts names to IP Addresses, Large transfers may use TCP/53</p>
+
+<p>Without DNS Servers we would not be able to communicate to servers as we would not be able to find them(resolve).</p>
+
+<p><h1>DHCP / Dynamic Host Configuration Protocol</h1></p>
+
+<p>Allows us to automatically configure an IP address, subnet mask, and other options. DHCP operates on UDP/67 and UDP/68</p>
+
+<p>A DHCP Server is required to accomplish this, it is typically integrated in to commerical routers.</p>
+
+<p><h3>Dynamic / Pooled DHCP</h3></p>
+
+<p>IP Addresses are assigned in real-time from a pool, each system is given a lease, and must renew at a set interval.</p>
+
+<p><h3>DHCP Reservations</h3></p>
+
+<p>Addresses are assigned by MAC Address in the DHCP Server. This provides a quick way of managing addresses from one location.</p>
+
+
+<p><h1>TFTP / Trivial File Transfer Protocol</h1></p>
+
+<p>Operates on UDP/69 for simple file transfers(no auth, not secure) typically used on VOIP.</p>
+
+<p><h1>HTTP and HTTPs / Hypertext Transfer Protocol (Secure)</h1></p>
+
+<p>Operates on TCP/80(unsecure) or TCP/443(Secure TLS or SSL) to interact with web applications</p>
+
+<p><h1>NTP / Network Time Protocol</h1></p>
+
+<p>Switches, routers, firewalls, servers, workstations all use NTP to keep clocks synced. It uses UDP/23, it is critical for systems to have correct time syncro for updates / logging and reporting.</p>
+
+<p><h1>SNMP / Simple Network Management Protocol</h1></p>
+
+<p>Queries devices to gather information from them, it operates on UDP/61.</p>
+
+<p><h3>Three Versions v1, v2, and v3</h3></p>
+
+<p>SNMP v1 allows management station to perform a single query and a single response with no encryption. SNMP v2 allows for bulk transfers and had data type ehancements for efficiency.</p>
+
+<p>v3 is the most recent and secure version of SNMP it focuses on integrity, authentication, and encryption.</p>
+
+<p><h3>SNMP Traps</h3></p>
+
+<p>Sends alerts and notifications to the management center using port UDP/162</p>
 
 

@@ -31,3 +31,5 @@
 <p><h1>Cloud Responsibility Matrix</h1></p>
 
 <p>Helps us understand what we are responsible for in our different environments. There may be some overlap.</p>
+
+![cloud-responsibility-matrix](https://github.com/ch1c4g0/network-plus/blob/6dd0775cef78d840b866cc77b57c80e689237679/screenshots/Screenshot%202026-03-21%20at%2014-47-05%20How%20to%20master%20the%20shared%20responsibility%20model%20for%20cloud%20security.png)

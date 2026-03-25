@@ -27,3 +27,28 @@ This protocol allows devices to request and reply to "are you alive" requests. I
 
 <p>Acts like a VPN Gateway, authenticating users, encrypt/decrypt, and load-balancing for remote access.</p>
 
+<p><h1>IPSec (Internet Protocol Security)</h1></p>
+
+<p>Security for OSI Layer 3 (Network Layer), it provides authentication and encryption for every packet. It can also digitally sign each packet for integrity, this prevents replay attacks.</p>
+
+<p>Very standardized, multi-vendor implementations are common.</p>
+
+><p><h3>Two Core IPSec Protocols</h3></p>
+>
+> - <h4>Authentication Header (AH)</h4>
+> - <h4>Encapsulation Security Payload(ESP)</h4>
+
+<p><h1>Internet Key Exchange (IKE)</h1></p>
+
+<p>Completed prior to sending data, allows both communicating parties to agree on encryption/decryption keys, this is also know as Security Association(SA).</p>
+
+<p><h3>Phase 1</h3></p>
+
+<p>Diffe-Hellman used to create a shared secret key using UDP/500. ISAKMP or Internet Security Association and Key Management Protocol.</p>
+
+<p><h3>Phase 2</h3></p>
+
+<p>Coordinates ciphers and key sizes, negotiates an inbound and outbound SA for the IPSec tunnel.</p>
+
+
+

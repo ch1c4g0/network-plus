@@ -52,5 +52,23 @@ This protocol allows devices to request and reply to "are you alive" requests. I
 
 ![ipsec-p1-p2](https://github.com/ch1c4g0/network-plus/blob/26ed795a5022704a970cc2c812ce01c466cdd183/screenshots/Screenshot%202026-03-25%20122633.png)
 
+<p>The first diagram in the image above shows us creating the ISAKMP Tunnel over UDP/500. The second diagram we are encluding the encrypted data via the ESP Tunnel, this is the foundation for sending data over the IPSec Tunnel.</p>
 
+<p><h3>Transport Mode and Tunnel Mode</h3></p>
 
+<p>You may be asked how you want to send the data, "transport", or "tunnel" both of these work differently and protect data in different ways.</p>
+
+<p>Transport mode inserts an IPSec Header and IPsec Trailer into our information this will all be in the clear, anything within the data portion is encrypted.</p>
+
+<p>Tunnel Mode encrypts the original IP-Header and Data. A new IP Header is added at the beggining of the data stream to instruct where to reach the IPSec concentrator. The key different between the two is the original header being encrypted and the addition of the new IP-Header to route to the concentrator.</p>
+
+<p><h1>Encapsulation Security Protocol (ESP)</h1></p>
+
+<p>Encrypts the packet, uses MD5, SHA-1, or SHA-2 for the hash, and 3DES or AES for encryption. It also adds a header, trailer, and an integrity check value to the IPSec datagram.</p>
+
+````
+______________________________________________________________________________________
+| NEW IP Header | ESP Header | IP Header | DATA | ESP Trailer| Integrity Check Value |        
+______________________________________________________________________________________
+
+````

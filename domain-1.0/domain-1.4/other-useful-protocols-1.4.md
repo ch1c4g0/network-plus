@@ -68,7 +68,12 @@ This protocol allows devices to request and reply to "are you alive" requests. I
 
 ````
 ______________________________________________________________________________________
-| NEW IP Header | ESP Header | IP Header | DATA | ESP Trailer| Integrity Check Value |        
+| NEW IP Header | ESP Header | IP Header | DATA | ESP Trailer| Integrity Check Value |
+======================================================================================
+                              |-------------------------------|
+                                           Encrypted
+                |----------------------------------------------|
+                                    Authenticated
 ______________________________________________________________________________________
 
 ````

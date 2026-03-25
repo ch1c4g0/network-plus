@@ -50,5 +50,7 @@ This protocol allows devices to request and reply to "are you alive" requests. I
 
 <p>Coordinates ciphers and key sizes, negotiates an inbound and outbound SA for the IPSec tunnel.</p>
 
+![ipsec-p1-p2](https://github.com/ch1c4g0/network-plus/blob/26ed795a5022704a970cc2c812ce01c466cdd183/screenshots/Screenshot%202026-03-25%20122633.png)
+
 
 

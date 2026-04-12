@@ -50,5 +50,26 @@ __|192|__     __|168|__    __|1|__      __|131|__
   8 bits = 1 byte = 1 octet
 |________________________________________________|
                       |
-              32 cits = 4 bytes                    
+              32 bits = 4 bytes                    
 +=================================================+
+
+```
+<p><h1>DHCP</h1></p>
+
+<p>Provides automatic address configuration for almost all devices.</p>
+
+<p>Automatic Private IP Addressing(APIPA)</p>
+
+<p>Known as a link-local address, it uses ARP to confirm that nobody else has the address.</p>
+
+> - Can only communicate with other local devices
+> - No forwarding by routers
+
+<p>IETF reserves 169.254.0.1 - 169.254.1.0 </p>
+
+<p><h1>Private IP Addresses</h1></p>
+
+<p>Allows for more public IP Addresses with huge ranges but they are not internet routeable.<br>
+NAT or Network Address Translation makes this possible.</p
+                                                                                              
+                                                                                              >

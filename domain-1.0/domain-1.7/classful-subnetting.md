@@ -40,3 +40,35 @@ Network(24) |         Hosts(8)            |
 <p>Below shows all addresses (0-255) and what class they belong to. Class D and E belong to a reserved block with an unspecified subnet mask.</p>
 
 ![subnetting classes](https://github.com/ch1c4g0/network-plus/blob/9b4458cffed4666c4aec2834307479cac2961094/screenshots/subnetting.png)
+
+<p><h1>4 Values for Subnet Construction</h1></p>
+
+<p><h2>(1.)Network Addresses</h2></p>
+
+<p>The first IP Address of a subnet, set all host bits to 0.</p>
+
+<p><h2>(2.)The first useable host address</h2></p>
+
+<p>One number higher than the network address.</p>
+
+<p><h2>(3.)Network broadcast address</h2></p>
+
+<p>The last IP Address of a subnet, set all host bits to 1 (255 decimal)</p>
+
+<p><h2>(4.)Last useable host address</h2></p>
+
+<p>One number lower than the broadcast address</p>
+
+<p><h1>Subnet Calculations</h1></p>.
+
+```
+10.74.22.11
+```
+
+> - Class A Address
+> - Subnet mask of 255.0.0.0
+> - Network Address 10.0.0.0
+> - First Host Address 10.0.0.1
+> - Broadcast Address 10.255.255.255
+> - Last Useable 10.255.255.254
+

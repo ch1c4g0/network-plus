@@ -38,3 +38,19 @@
             255.255.0.0
                 /16
 ```
+
+
+
+<p><h2>One more example,</h2></p>
+
+```
+11111111.11111111.11111111.11000000
+```
+
+<p>255 in the place of all of your network bits, zero for all network bits, add up your network bits and thats it.</p>
+
+```
+        11111111.11111111.11111111.11000000
+                255.255.255.2
+                      /26
+```

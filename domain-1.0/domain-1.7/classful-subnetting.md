@@ -35,4 +35,8 @@ Network(24) |         Hosts(8)            |
             |_____________________________|
 ```
 
+<p><h1>All of the Classes</h1></p>
+
+<p>Below shows all addresses (0-255) and what class they belong to. Class D and E belong to a reserved block with an unspecified subnet mask.</p>
+
 ![subnetting classes](https://github.com/ch1c4g0/network-plus/blob/9b4458cffed4666c4aec2834307479cac2961094/screenshots/subnetting.png)

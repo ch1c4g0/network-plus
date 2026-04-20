@@ -34,3 +34,5 @@ Network(16) |         Hosts(16)           |
 Network(24) |         Hosts(8)            |
             |_____________________________|
 ```
+
+![subnetting classes](https://github.com/ch1c4g0/network-plus/blob/9b4458cffed4666c4aec2834307479cac2961094/screenshots/subnetting.png)

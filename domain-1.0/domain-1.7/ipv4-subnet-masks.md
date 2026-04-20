@@ -80,3 +80,18 @@ Binary                Decimal
 ```
 255.240.0.0
 ```
+
+<p><h1>CIDR to Binary/Decimal</h1></p>
+
+<p>We can do the same conversion with the chart with just the CIDR notation as well. If we have a /20 CIDR-Block it would look like this.</p>
+
+<p>Should be a total of 20 active bits (1s), it would look like this in Binary.</p>
+
+````
+11111111.11111111.11110000.00000000
+````
+<p>To get our decimal format, we would follow the same steps above.</p>
+
+```
+255.255.240.0
+```

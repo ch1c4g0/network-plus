@@ -83,7 +83,11 @@ Binary                Decimal
 
 <p><h1>CIDR to Binary/Decimal</h1></p>
 
-<p>We can do the same conversion with the chart with just the CIDR notation as well. If we have a /20 CIDR-Block it would look like this.</p>
+<p>We can do the same conversion with the chart with just the CIDR notation as well.
+
+```
+/20
+```
 
 <p>Should be a total of 20 active bits (1s), it would look like this in Binary.</p>
 

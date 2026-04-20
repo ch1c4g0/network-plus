@@ -1,0 +1,40 @@
+
+<p><h1>Classless Subnetting</h1></p>
+
+<p>Otherwise known as CIDR (Classless Inter-Domain Routing), it was created in 1993 and removed restrictions created by classful subnet masks.</p>
+
+<p>Subnets are expressed as decimal, bits, or CIDR notation (IP Addr, Slash, # of subnet bits); 192.168.1.44/24</p>
+
+<p>Most computers expect the decimal based subnet mask (.255), while most routers expect CIDR notation /24.</p>
+
+<p><h1>The subnet mask</h1></p>
+
+<p>Contiguous series of ones, ones on the left, zeros on the right.</p>
+
+<p>i.e</p>
+
+```
+11111111.11111111.11111111.00000000
+        255.255.255.0
+              /24
+```
+
+<p>There is a total of 24 ones that makeup the network portion of the subnet mask, this gives us a /24 address (8x3)</p>
+
+<p><h1>Binary to CIDR example</h1></p>
+
+```
+11111111.11111111.00000000.00000000
+```
+<p>To find the CIDR-block notation we would simply change the network portion of the address to .255 and everything behind it to 0</p>
+
+```
+ 255.255.0.0
+```
+<p>Adding the two octets of then network portion gives you 16.</p>
+
+```
+11111111.11111111.00000000.00000000
+            255.255.0.0
+                /16
+```

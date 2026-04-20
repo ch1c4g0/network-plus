@@ -59,7 +59,7 @@ Network(24) |         Hosts(8)            |
 
 <p>One number lower than the broadcast address</p>
 
-<p><h1>Subnet Calculations</h1></p>.
+<p><h1>Practice Your Subnet Calculations</h1></p>.
 
 ```
 10.74.22.11
@@ -72,3 +72,24 @@ Network(24) |         Hosts(8)            |
 > - Broadcast Address 10.255.255.255
 > - Last Useable 10.255.255.254
 
+```
+172.16.88.200
+```
+
+> - Class B
+> - Subnet mask of 255.255.0.0
+> - Network Address 172.0.0.0
+> - First host address 172.0.0.1
+> - Broadcast address 172.255.255.255
+> - Last useable address 172.255.255.254
+
+```
+192.168.4.77
+```
+
+> - Class C
+> - Subnet mask 255.255.255.0
+> - Network address 192.0.0.0
+> - First host address 192.0.0.1
+> - Broadcast address 92.255.255.255
+> - Last useable address 192.255.255.254

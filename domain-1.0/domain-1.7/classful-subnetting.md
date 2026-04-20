@@ -89,7 +89,7 @@ Network(24) |         Hosts(8)            |
 
 > - Class C
 > - Subnet mask 255.255.255.0
-> - Network address 192.0.0.0
-> - First host address 192.0.0.1
-> - Broadcast address 92.255.255.255
-> - Last useable address 192.255.255.254
+> - Network address 192.168.4.0
+> - First host address 192.168.4.1
+> - Broadcast address 192.168.4.255
+> - Last useable address 192.168.4.254

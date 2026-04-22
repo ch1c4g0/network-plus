@@ -19,7 +19,7 @@
 Hosts per subnet = 2^host bits - 2</p>
 
 ```
-IP: 10..1.1.0
+IP: 10.1.1.0
 -- Class A, mask of 255.0.0.0
 -- Classful addressing
           Network(8)  Subnet Bits (16) Host (8)
@@ -32,5 +32,11 @@ In binary, 11111111.11111111.11111111.00000000
 
 ```
 IP: 192.168.11.0/26
--- Class B, mask of 
+-- Class C, mask of
+-- Classful addressing
+          Network Bits(24+)           S=2 H=6
+In binary, 11111111.11111111.11111111.11000000
 
+```
+<p>2 to the power of 2 = 4 <br>
+6 host bits to the power of 2 - 2 = 62</p>

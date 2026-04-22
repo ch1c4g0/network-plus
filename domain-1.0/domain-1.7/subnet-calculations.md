@@ -28,3 +28,9 @@ In binary, 11111111.11111111.11111111.00000000
 <p>2 to the power of 16(subnet bits) is 65,536 total subnets<br>
 2 to the power of 8(host bits) - 2 is 254, the total number of hosts per subnet. </p>
 
+<p><h2>Another example,</h2></p>
+
+```
+IP: 192.168.11.0/26
+-- Class B, mask of 
+

@@ -19,3 +19,17 @@ This protocol is a hybrid protocol as it uses both distance-vector and link-stat
 This means EIGRP does NOT have a port number, as it does not operate at the transport layer like typical protocols.
 
 It is identified by an IP protocol number of 88 within the IP packet header or the next header 88 for IPv6.
+
+# Diffusing Update Algorithm (DUAL)
+
+This algorithm is used to choose the best path to a destination, keep backup routes, prevent routing loops, and recalculate paths for quick convergence.
+
+## Key EIGRP Terms
+
+| Term                   | Meaning                                               |
+| ---------------------- | ----------------------------------------------------- |
+| **Successor**          | Best route currently being used                       |
+| **Feasible successor** | Backup route that can be used if the main route fails |
+| **Feasible distance**  | Best known metric to the destination                  |
+| **Reported distance**  | Neighbor’s advertised distance to the destination     |
+| **DUAL**               | Algorithm EIGRP uses to calculate loop-free routes    |

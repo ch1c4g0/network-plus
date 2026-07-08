@@ -14,7 +14,7 @@ This protocol is a hybrid protocol as it uses both distance-vector and link-stat
 2. Topology Table: Contains all routes learned from neighbor routers, tracking all possible paths to a destination.
 3. Routing Table: The absolute best or successor routes actively used to forward traffic.
 
-### Operates at the Layer 3 (Network Layer)
+### Operates at Layer 3 (Network Layer)
 
 This means EIGRP does NOT have a port number, as it does not operate at the transport layer like typical protocols.
 

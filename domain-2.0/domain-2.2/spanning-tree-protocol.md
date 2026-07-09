@@ -20,3 +20,14 @@ Without it, layer 2 loops can easily bring down a network.
 2. Designated Ports: Any other port that can forward traffic
 3. Blocked Ports: Ports that spanning tree has disabled from sending/receiving traffic. (loop prevention)
 
+When a link goes down, spanning tree is able to re-calculate the Layer 2 loop-free topology and changes which switch ports are forwarding or blocking, this process is called **convergence** and typically takes 30-50 seconds. The speed of STP is a gripe, thats why **RSTP(RSTP 802.1w)** was created.
+
+# Rapid Spanning Tree Protocol (RSTP) 802.1w
+
+- This is a faster version of STP
+- Convergence only takes a few seconds or less
+- Uses alternate/backup port roles to speed recovery.
+
+**STP and RSTP are backwards compatible**
+
+Devices using RSTP can also use STP and so on.

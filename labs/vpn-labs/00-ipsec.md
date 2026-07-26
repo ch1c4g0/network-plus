@@ -2,7 +2,7 @@
 
 # What is IPSec?
 
-IPSec short for Internet Protocol Security, is a type of tunneling protocol that uses the IKEv2, ISAKMP, Security Policies, to negotiate secure connections. IPSec can be configured as https://medium.com/liveonnetwork/ipsec-vpn-c4605c5aba95point-to-point or mobile (remote style connection).
+IPSec short for Internet Protocol Security, is a type of tunneling protocol that uses the IKEv2, ISAKMP, Security Policies, to negotiate secure connections. IPSec can be configured point-to-point or mobile (remote style connection).
 
 ## IKE
 
